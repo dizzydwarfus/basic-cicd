@@ -45,6 +45,6 @@ jobs:
         aws_session_token: ${{ secrets.AWS_SESSION_TOKEN }}
         application_name: early-careers-basic-cicd
         environment_name: Early-careers-basic-cicd-env
-        version_label: 12348
+        version_label: 1.1
         region: "eu-north-1"
         deployment_package: deploy.zip
